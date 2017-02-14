@@ -146,6 +146,7 @@
     <xccdf:select idref="xccdf_org.ssgproject.content_group_disabling_snmp_service" selected="true"/>
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_service_snmpd_disabled" selected="true"/>
     <xccdf:select idref="xccdf_org.ssgproject.content_group_snmp_configure_server" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_bootloader_nousb_argument" selected="false"/>
     <xccdf:set-value idref="xccdf_org.ssgproject.content_value_var_password_pam_unix_remember">0</xccdf:set-value>
     <xccdf:set-value idref="xccdf_org.ssgproject.content_value_var_auditd_flush">incremental</xccdf:set-value>
     <xccdf:set-value idref="xccdf_org.ssgproject.content_value_sshd_idle_timeout_value">800</xccdf:set-value>
